@@ -6,7 +6,7 @@ head_hash := $(shell git rev-parse --short HEAD)
 
 params = -a revnumber=$(head_hash) -a revdate=$(date)
 
-docs = README.asc consultante_au_forfait.asc
+docs = README.asc consultante_au_forfait.asc exercice_log.asc
 
 contributors = contributors.txt
 
